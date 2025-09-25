@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>39a368d9-ca51-4e7f-bb28-d8d515f5c04e</ProjectGuid>
+    <ProjectGuid>1a39cce9-4614-4b98-bb70-14af1e57a03c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IKTpe25_1.py</StartupFile>
+    <StartupFile>NewFolder1\module4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>IKTpe25_1</Name>
     <RootNamespace>IKTpe25_1</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,19 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="IKTpe25_1.py" />
-    <Compile Include="module2.py" />
+    <Compile Include="NewFolder1\IKTpe25_1.py" />
+    <Compile Include="NewFolder1\IKTpe25_11.py" />
+    <Compile Include="NewFolder1\module1.py" />
+    <Compile Include="NewFolder1\module2.py" />
+    <Compile Include="NewFolder1\module3.py" />
+    <Compile Include="NewFolder1\module4.py" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env\">
-      <Id>env</Id>
-      <Version>3.13</Version>
-      <Description>env (Python 3.13 (64-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X64</Architecture>
-    </Interpreter>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -1,0 +1,5 @@
+print("tere maailm")
+nimi = input("Teie nimi: ").capitalize()
+print(f"hello, {nimi}!")
+vanus = int(input("Kui vana sa oled: "))
+print(f"tere maailm! ma tervitan sind {nimi}), sa oled {vanus} aastat vana!")
